@@ -1,9 +1,13 @@
 import React from 'react';
 import style from './Button.module.scss';
 
-const Button = () => {
+type ButtonProps = {
+  text: string
+}
+
+const Button = ({ text }: ButtonProps) => {
   return(
-    <button className={style.botao}>Enviar</button>
+    <button className={style.botao}>{text}</button>
   );
 }
 
