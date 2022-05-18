@@ -1,14 +1,19 @@
 import React from 'react';
 import style from './Button.module.scss';
 
-type ButtonProps = {
+interface Props {
   text: string;
   type?: "button" | "submit" | "reset" | undefined;
+  onClick?: () => void;
 }
 
-const Button = ({ text }: ButtonProps) => {
+const Button = ({ text, onClick, type }: Props) => {
   return(
-    <button className={style.botao}>{text}</button>
+    <button 
+      onClick={onClick}
+      type={type}
+      className={style.botao}
+    >{text}</button>
   );
 }
 
