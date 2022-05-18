@@ -1,17 +1,20 @@
 import React from 'react';
-import style from '../List.module.scss';
+import { TarefasProps } from '../../../types/tarefa';
+import style from './Item.module.scss';
 
-type ItemProps = {
-  tarefa: string;
-  tempo: string;
+interface Props extends TarefasProps {
+  selecionaTarefa: (tarefaSelecionada: TarefasProps) => void;
 }
 
-const Item = ({ tarefa, tempo }: ItemProps) => {
+const Item = ({ tarefa, tempo, selecionado, completado, id, selecionaTarefa }: Props) => {
   return (
     <>
-      <li className={style.item}>
+      <li className={`${style.item} ${selecionado ? style.itemSelecionado : ''} ${completado ? style.itemCompletado : ''}`} onClick={() => !completado && selecionaTarefa({
+        tarefa, tempo, selecionado, completado, id
+      })}>
         <h3>{tarefa}</h3>
         <span>{tempo}</span>
+        { completado  && <span className={style.concluido} aria-label="tarefa completada"></span>}
       </li>
     </>
   );
