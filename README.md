@@ -1,3 +1,5 @@
+<h1 align="center">React Timer</h1>
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/43352880/170829114-87da5aaa-3a4f-433a-8973-f44fe8d964df.PNG" alt="Reacttimer">
 </p>
