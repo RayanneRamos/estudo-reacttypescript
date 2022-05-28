@@ -6,7 +6,7 @@
   <img src="https://user-images.githubusercontent.com/43352880/170829114-87da5aaa-3a4f-433a-8973-f44fe8d964df.PNG" alt="Reacttimer">
 </p>
 
-<p aling="center">
+<p align="center">
   <img src="https://img.shields.io/badge/license-MIT-%23835afd" alt="License">
   <img src="https://img.shields.io/badge/forks-MIT-%23835afd" alt="Forks">
   <img src="https://img.shields.io/badge/stars-MIT-%23835afd" alt="Stars">
