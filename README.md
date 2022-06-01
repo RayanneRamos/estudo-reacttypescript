@@ -16,7 +16,7 @@
 
 ## 💻 Projeto
 
-[ReactTimer] É um projeto que foi desenvolvido durante o curso React: escrevendo com typescript da [Alura](https://alura.com.br/). O curso conta com 7 módulos que variam de 8 a 12 aulas por módulo.
+[ReactTimer](https://react-studytimer-keejt00on-rayanneramos.vercel.app/) É um projeto que foi desenvolvido durante o curso React: escrevendo com typescript da [Alura](https://alura.com.br/). O curso conta com 7 módulos que variam de 8 a 12 aulas por módulo.
 
  - [x] Módulo 1
  - [x] Módulo 2
