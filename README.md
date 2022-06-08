@@ -65,8 +65,8 @@ Você pode visualizar o layout do projeto através:
 
 ## 🔥 Desafios
  - [x] Responsividade
- - [] Testes
- - [] Deploy
+ - [ ] Testes
+ - [ ] Deploy
 
 
 ## 📝 License
