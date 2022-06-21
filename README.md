@@ -67,6 +67,8 @@ Você pode visualizar o layout do projeto através:
  - [x] Responsividade
  - [ ] Testes
  - [ ] Deploy
+ - [ ] Excluir os cards de estudos
+ - [ ] Editar os cards de estudos
 
 
 ## 📝 License
